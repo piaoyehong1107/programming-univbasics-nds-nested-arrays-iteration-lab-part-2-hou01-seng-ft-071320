@@ -10,7 +10,8 @@ def find_min_in_nested_arrays(src)
       end
       inner_count +=1 
     end
-    new_array << small_ele
+    new_array.push(small_ele)
     count +=1
   end
+  new_array
 end
