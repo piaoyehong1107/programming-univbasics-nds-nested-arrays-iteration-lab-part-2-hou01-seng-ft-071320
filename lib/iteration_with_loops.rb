@@ -1,6 +1,6 @@
 def find_min_in_nested_arrays(src)
   new_array =[]
-  small_ele=100 
+  small_ele=1000
   count=0 
   while count<src.length do
     inner_count=0 
